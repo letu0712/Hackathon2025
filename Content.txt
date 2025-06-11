@@ -1,0 +1,96 @@
+🎤 1. Giới thiệu ứng dụng
+🖼 Slide 1: Tiêu đề + Mô tả ngắn
+
+Tên ứng dụng: BiTranslator (gợi ý, bạn có thể đặt tên khác)
+
+Mô tả:
+
+"BiTranslator là một ứng dụng dịch ngôn ngữ hai chiều giúp hai người nói hai ngôn ngữ khác nhau có thể giao tiếp dễ dàng bằng giọng nói."
+
+Ví dụ minh hoạ:
+
+Người A nói tiếng Việt
+
+Hệ thống dịch sang tiếng Anh và phát ra âm thanh
+
+Người B trả lời bằng tiếng Anh
+
+Hệ thống dịch ngược sang tiếng Việt và phát lại
+
+⚙️ 2. Cách hoạt động của hệ thống
+🧩 Slide 2: Sơ đồ luồng xử lý
+
+Các bước hoạt động:
+Thu âm giọng nói từ người dùng (microphone)
+
+Chuyển giọng nói thành văn bản (Speech-to-Text)
+
+Dịch văn bản sang ngôn ngữ đích (Google Translate API)
+
+Chuyển văn bản đã dịch thành giọng nói (Text-to-Speech)
+
+Phát lại âm thanh cho người nghe
+
+👉 Tương tự quá trình ngược lại cho người đối thoại.
+
+🧰 3. Công nghệ & công cụ sử dụng
+🛠 Slide 3: Công nghệ
+
+Python: ngôn ngữ lập trình chính
+
+Thư viện:
+
+speech_recognition: chuyển giọng nói → văn bản
+
+googletrans (hoặc deep_translator): dịch văn bản (miễn phí, dùng API không chính thức)
+
+gtts: chuyển văn bản → giọng nói
+
+pygame: phát âm thanh
+
+pyttsx3 (nếu dùng TTS offline cho tiếng Việt)
+
+🟢 Ưu điểm:
+
+100% miễn phí
+
+Chạy được trên máy tính cá nhân
+
+Không cần GPU, không cần server
+
+💡 4. Ưu điểm & Ứng dụng thực tiễn
+💬 Slide 4: Ứng dụng thực tế
+
+Ưu điểm:
+Giao tiếp xuyên ngôn ngữ trực tiếp và tự nhiên
+
+Không cần gõ văn bản
+
+Hỗ trợ nhiều ngôn ngữ (Việt, Anh, Nhật, Hàn,...)
+
+Dễ sử dụng
+
+Ứng dụng:
+Học ngoại ngữ
+
+Du lịch, giao tiếp cơ bản
+
+Giao tiếp với người nước ngoài (ngắn gọn, thực tế)
+
+Trợ lý cá nhân 2 ngôn ngữ
+
+🚀 5. Demo & Kết luận
+📱 Slide 5: Demo / Video / Giao diện terminal
+
+Kết luận:
+Ứng dụng đơn giản, hiệu quả, dễ mở rộng
+
+Có thể nâng cấp thêm: giao diện GUI, hỗ trợ nhiều ngôn ngữ, AI nhận diện ngữ cảnh...
+
+🎁 Bonus: Gợi ý mở rộng (nếu bạn muốn thêm)
+Tự động phát hiện ngôn ngữ nói
+
+Giao diện web / desktop (dùng Tkinter hoặc Flask)
+
+Dịch văn bản từ hình ảnh (OCR + Google Translate)
+
